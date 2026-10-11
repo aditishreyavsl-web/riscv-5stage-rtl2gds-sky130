@@ -1,0 +1,15 @@
+{
+  "DESIGN_NAME": "rv32_core",
+  "VERILOG_FILES": "dir::src/*.v",
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 25,
+  "FP_SIZING": "relative",
+  "FP_CORE_UTIL": 40,
+  "PL_TARGET_DENSITY_PCT": 50,
+  "FP_PDN_VPITCH": 25,
+  "FP_PDN_HPITCH": 25,
+  "RUN_CTS": true,
+  "GRT_ANTENNA_MARGIN": 20,
+  "RUN_POST_GRT_RESIZER_TIMING": true,
+  "GRT_REPAIR_ANTENNAS": true
+}

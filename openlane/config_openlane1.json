@@ -1,0 +1,12 @@
+{
+  "DESIGN_NAME": "rv32_core",
+  "VERILOG_FILES": "dir::src/*.v",
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 20.0,
+  "FP_SIZING": "relative",
+  "FP_CORE_UTIL": 40,
+  "PL_TARGET_DENSITY": 0.50,
+  "FP_PDN_VPITCH": 25,
+  "FP_PDN_HPITCH": 25,
+  "RUN_CVC": 0
+}
